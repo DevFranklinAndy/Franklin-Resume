@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cvee: Franklin Chidera Project Portfolio is the ultimate destination for showcasing the fusion of creativity and technology. As an adept developer and designer, my portfolio embodies the essence of modern digital solutions. Through CVee, I aim to highlight my journey, skills, and passion for creating impactful web designs and applications."
+    />
+    <title>Cvee || My Project Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+
+    <link rel="icon" href="img/Favicon.png" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/breakpoints.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo-holder">
+        <a href="#">
+          <img src="img/Cvee-logo.png" alt="Cvee Logo" class="logo" />
+        </a>
+        <a class="mail-me-link" href="mailto:devfranklinandrew@gmail.com"
+          >devfranklinandrew@gmail.com</a
+        >
+      </div>
+
+      <nav class="nav-holder">
+        <ul class="nav-holder-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#career" class="nav-link">Career</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link nav-btn">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-menu-btn">
+        <ion-icon class="mobile-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-icon" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO / PERSONAL INFORMATION -->
+      <header class="section-hero">
+        <div class="wrapper center-vertical">
+          <div class="hero-text-wrapper">
+            <p class="intro">I'm Franklin</p>
+            <h1 class="heading-primary">Web Developer + Designer</h1>
+            <div class="hero-img-wrapper tablet">
+              <img
+                src="img/professional-photo-hero.jpg"
+                alt="A Photo of Franklin Chidera"
+                class="hero-img tablet"
+              />
+            </div>
+            <div class="hero-description">
+              Experienced Developer from Lagos, Nigeria. Building modern and
+              responsive websites. With a strong foundation in technologies like
+              <strong>React</strong>, <strong>JavaScript</strong>, and
+              <strong>Node.js</strong>, I create dynamic web applications
+              tailored to user needs.
+            </div>
+            <div class="btn-holder">
+              <a href="#" class="btn btn--full margin-right-sm"
+                ><span>Download CV</span>
+                <ion-icon
+                  class="btn-icon"
+                  name="arrow-down-circle-outline"
+                ></ion-icon>
+              </a>
+              <a
+                href="https://github.com/DevFranklinAndy"
+                class="btn btn--outline"
+                target="_blank"
+              >
+                <span>Github</span>
+                <ion-icon class="btn-icon" name="logo-github"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <figure class="hero-img-wrapper desktop">
+            <img
+              src="img/professional-photo-hero.jpg"
+              alt="A Photo of Franklin Chidera"
+              class="hero-img"
+            />
+          </figure>
+        </div>
+      </header>
+
+      <!-- ABOUT ME / WHO AM I -->
+      <section id="about" class="section-about section--hidden">
+        <div class="section-wrapper">
+          <div class="about-wrapper">
+            <header>
+              <p class="subheading">about me</p>
+              <h2 class="heading-secondary">Who Am I</h2>
+            </header>
+            <p class="about-description">
+              I am a skilled web developer with a strong command of modern
+              technologies like <strong>React</strong>,
+              <strong> JavaScript</strong>, and <strong>Node.js</strong>. My
+              expertise extends to crafting responsive and visually appealing
+              web pages using <strong>HTML</strong>, <strong>CSS</strong>, and
+              <strong>SASS (SCSS)</strong>, ensuring a seamless user experience.
+              I am proficient in version control with <strong>Git</strong> and
+              <strong>GitHub</strong>, which allows me to collaborate
+              efficiently on projects. With a deep understanding of
+              <strong>web design</strong> principles, I create dynamic
+              <strong>(API Integration)</strong>, interactive websites that are
+              both functional and aesthetically pleasing. My focus is on
+              building clean, maintainable code and delivering high-quality web
+              applications.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CAREER / WHAT I DO -->
+      <section id="career" class="section-career section--hidden">
+        <div class="section-wrapper">
+          <header>
+            <p class="subheading">career</p>
+            <h2 class="heading-secondary">What I Do</h2>
+          </header>
+
+          <div class="career-wrapper grid grid--3--cols">
+            <div class="career-card">
+              <ion-icon
+                class="career-icon"
+                name="code-slash-outline"
+              ></ion-icon>
+              <h3 class="heading-tertiary">Web Development</h3>
+              <p class="career-description">
+                Crafting visually appealing and highly functional websites and
+                applications through coding stack.
+              </p>
+            </div>
+            <div class="career-card">
+              <ion-icon
+                class="career-icon"
+                name="color-palette-outline"
+              ></ion-icon>
+              <h3 class="heading-tertiary">Web Design</h3>
+              <p class="career-description">
+                Creating visually stunning and user-friendly optimized websites
+                and applications for businesses.
+              </p>
+            </div>
+            <div class="career-card">
+              <ion-icon class="career-icon" name="contrast-outline"></ion-icon>
+              <h3 class="heading-tertiary">UI/UX Design</h3>
+              <p class="career-description">
+                Creating seamless and engaging digital experiences with a focus
+                on user-centric design principles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RELEVANT SKILLS -->
+      <section id="skills" class="section-skills section--hidden">
+        <div class="section-wrapper center-text">
+          <header>
+            <p class="subheading">frequent skills</p>
+            <h2 class="heading-secondary">My Advantage Area</h2>
+            <p class="skills-description">
+              More than ready to take up any development challenges.
+            </p>
+          </header>
+
+          <div class="skills-wrapper grid grid--6--cols">
+            <!-- SKILL ONE -->
+            <div class="skill-card">
+              <div class="skill">
+                <img
+                  src="img/skill-imgs/html.png"
+                  alt="The HTML Logo in the skills section"
+                  class="skill-img"
+                />
+                <span class="skill-rating">95%</span>
+              </div>
+              <p class="skill-title">HTML5</p>
+            </div>
+
+            <!-- SKILL TWO -->
+            <div class="skill-card">
+              <div class="skill">
+                <img
+                  src="img/skill-imgs/css.png"
+                  alt="The CSS Logo in the skills section"
+                  class="skill-img"
+                />
+                <span class="skill-rating">85%</span>
+              </div>
+              <p class="skill-title">CSS3</p>
+            </div>
+
+            <!-- SKILL THREE -->
+            <div class="skill-card">
+              <div class="skill">
+                <img
+                  src="img/skill-imgs/figma.png"
+                  alt="The FIGMA Logo in the skills section"
+                  class="skill-img"
+                />
+                <span class="skill-rating">90%</span>
+              </div>
+              <p class="skill-title">FIGMA</p>
+            </div>
+
+            <!-- SKILL FOUR -->
+            <div class="skill-card">
+              <div class="skill">
+                <img
+                  src="img/skill-imgs/js.png"
+                  alt="The JAVASCRIPT Logo in the skills section"
+                  class="skill-img"
+                />
+                <span class="skill-rating">85%</span>
+              </div>
+              <p class="skill-title">JAVASCRIPT</p>
+            </div>
+
+            <!-- SKILL FIVE -->
+            <div class="skill-card">
+              <div class="skill">
+                <img
+                  src="img/skill-imgs/nodejs.png"
+                  alt="The NODEJS Logo in the skills section"
+                  class="skill-img"
+                />
+                <span class="skill-rating">80%</span>
+              </div>
+              <p class="skill-title">NODEJS</p>
+            </div>
+
+            <!-- SKILL SIX -->
+            <div class="skill-card">
+              <div class="skill">
+                <img
+                  src="img/skill-imgs/react.png"
+                  alt="The REACT Logo in the skills section"
+                  class="skill-img"
+                />
+                <span class="skill-rating">85%</span>
+              </div>
+              <p class="skill-title">REACT</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section-projects section--hidden">
+        <div class="section-wrapper">
+          <header>
+            <p class="subheading">featured projects</p>
+            <h2 class="heading-secondary">
+              Explore a Selection of My Most Noteworthy Work
+            </h2>
+          </header>
+
+          <div class="project-wrapper grid grid--3--cols">
+            <a
+              href="https://quikaroo-quiz-app.vercel.app"
+              target="_blank"
+              class="project-box"
+            >
+              <img
+                src="img/project-imgs/project-quikaroo.png"
+                alt="Project 1 Image"
+                class="project-img"
+              />
+              <p class="project-title">Quikaroo - Quiz App</p>
+              <p class="project-skill">JavaScript | API</p>
+              <p class="project-description">
+                Quikaroo is a dynamic quiz application built using HTML, CSS,
+                and JavaScript (DOM). It leverages the Open Trivia DB API to
+                fetch Q/A.
+              </p>
+            </a>
+            <a href="https://ewebalsms.com" target="_blank" class="project-box">
+              <img
+                src="img/project-imgs/project-ewebal.png"
+                alt="Project 2 Image"
+                class="project-img"
+              />
+              <p class="project-title">Ewebal - SMS Sender</p>
+              <p class="project-skill">MERN | Typescript</p>
+              <p class="project-description">
+                Ewebal SMS Solutions is a robust web application designed for
+                sending bulk SMS messages to multiple groups or contacts
+                efficiently.
+              </p>
+            </a>
+            <a
+              href="https://mapatelli-map-app.vercel.app/"
+              target="_blank"
+              class="project-box"
+            >
+              <img
+                src="img/project-imgs/project-mapatelli.png"
+                alt="Project 3 Image"
+                class="project-img"
+              />
+              <p class="project-title">Mapatelli - Map App</p>
+              <p class="project-skill">Javascript | Leaflet | Nominatim</p>
+              <p class="project-description">
+                Mapatelli is an interactive map project that gives users
+                description about a particular location which they clicked on
+                the map.
+              </p>
+            </a>
+            <a
+              href="https://ficboard-admin-dashboard.vercel.app"
+              target="_blank"
+              class="project-box"
+            >
+              <img
+                src="img/project-imgs/project-ficboard.png"
+                alt="Project 4 Image"
+                class="project-img"
+              />
+              <p class="project-title">Ficboard - Admin Dashb.</p>
+              <p class="project-skill">SCSS</p>
+              <p class="project-description">
+                Ficboard: A sleek and responsive admin dashboard for loan
+                management, featuring a user details and overview page.
+              </p>
+            </a>
+            <a
+              href="https://realty-estate-website.vercel.app"
+              target="_blank"
+              class="project-box"
+            >
+              <img
+                src="img/project-imgs/project-realty.png"
+                alt="Project 5 Image"
+                class="project-img"
+              />
+              <p class="project-title">Realty - Estate Website.</p>
+              <p class="project-skill">SCSS</p>
+              <p class="project-description">
+                Realty: A single page Real Estate Portfolio Website that
+                features sought-after locations throughout the buying and
+                selling of apartments.
+              </p>
+            </a>
+            <a
+              href="https://taskio-task-app.vercel.app/sign-in-page"
+              target="_blank"
+              class="project-box"
+            >
+              <img
+                src="img/project-imgs/project-taskio.png"
+                alt="Project 6 Image"
+                class="project-img"
+              />
+              <p class="project-title">Taskio - Todo App.</p>
+              <p class="project-skill">MERN</p>
+              <p class="project-description">
+                Taskio: is a Fullstack Todo application built with MongoDB,
+                Express, React and Node.Js. Users can create, starred, update
+                and trash task.
+              </p>
+            </a>
+          </div>
+
+          <div class="project-btn-holder">
+            <a
+              href="https://github.com/DevFranklinAndy"
+              class="btn btn--outline"
+              target="_blank"
+            >
+              <span>Github</span>
+              <ion-icon class="btn-icon" name="logo-github"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-contact section--hidden">
+        <div class="section-wrapper justify-center">
+          <p class="subheading">contact me</p>
+          <h2 class="heading-secondary">Get in touch with me</h2>
+          <div class="social-icon-box">
+            <!-- <a
+              target="_blank"
+              href="https://www.linkedin.com/in/franklin-andrew-331005320/"
+            >
+              <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+            </a> -->
+            <a target="_blank" href="tel:2349165812629">
+              <ion-icon class="social-icon" name="call-outline"></ion-icon>
+            </a>
+            <a target="_blank" href=" https://wa.me/2349165812629?text=Hi">
+              <ion-icon class="social-icon" name="logo-whatsapp"></ion-icon>
+            </a>
+            <a href="https://web.facebook.com/frank.leen.750/" target="_blank">
+              <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+            </a>
+            <a target="_blank" href="mailto:devfranklinandrew@gmail.com">
+              <ion-icon class="social-icon" name="mail-open-outline"></ion-icon>
+            </a>
+          </div>
+          <address class="contact-address">
+            Olodi Apapa, Lagos State, Nigeria.
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <img src="img/Cvee-logo.png" alt="Cvee Logo" class="logo" />
+      <p>Copyright &copy; <span class="year"></span></p>
+    </footer>
+
+    <a href="#" class="nav-link"
+      ><ion-icon class="scroll-icon" name="caret-up-circle-outline"></ion-icon
+    ></a>
+  </body>
+</html>
